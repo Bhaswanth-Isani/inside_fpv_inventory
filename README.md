@@ -8,7 +8,7 @@ This project uses 2 parts -
   real-time using Socket IO (Web Sockets). This app is made using
   Flutter.
 
-![](image1.png)
+![](https://public.dm.files.1drv.com/y4mnU90CxluRz8Pvy9meTWMWWcqLwQpLZJo4EUxqBKSQgL0SKdp3PaJUMQiVi0kW728PJTHpb73kARrjYUx7nfVL7x3nSly2qdNdpRJI_jIh2V4iOVNSsov2tcRKgh7a9xhwYTTBAHvn_sXtyAC--I-Rz8HBfBy2cbJ6nXSsOKV2xxhf_fDOhyFqmZNbe29kAdOZJAo2-pSlSrNrqHIeU9XU3OItwnovTZMAA8F4QCSfp0?AVOverride=1)
 
 - Backend Server to manage these real-time changes from the hardware
   and update the data in the frontend app. This server is mage using
