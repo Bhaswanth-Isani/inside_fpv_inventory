@@ -1,16 +1,23 @@
-# inside_fpv_inventory
+# Inventory Management System
 
-A new Flutter project.
+This project uses 2 parts -
 
-## Getting Started
+- Frontend App to view the number of drones and components available
+  in their warehouse and which drone is in which stage (Production,
+  Testing and Ready for Delivery). These details are updated in
+  real-time using Socket IO (Web Sockets). This app is made using
+  Flutter.
 
-This project is a starting point for a Flutter application.
+![Chart Description automatically
+generated](media/image1.png)
 
-A few resources to get you started if this is your first Flutter project:
+- Backend Server to manage these real-time changes from the hardware
+  and update the data in the frontend app. This server is mage using
+  TypeScript, Express JS and Socket IO. We have used Mongo DB as
+  database. [GitHub
+  Repository](https://github.com/bhaswanth-isani8055/inside-fpv-server)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The data for each component is reduced when a drone enters production
+stage based on the relations made between drones and components. For
+example, if a drone requires 4 motors and it enters production stage
+then 4 motors are automatically reduced.
