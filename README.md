@@ -8,8 +8,7 @@ This project uses 2 parts -
   real-time using Socket IO (Web Sockets). This app is made using
   Flutter.
 
-![Chart Description automatically
-generated](media/image1.png)
+![](image1.png)
 
 - Backend Server to manage these real-time changes from the hardware
   and update the data in the frontend app. This server is mage using
