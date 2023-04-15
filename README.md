@@ -1,5 +1,7 @@
 # Inventory Management System
 
+[Working Prototype Video](https://drive.google.com/file/d/1NY8aR9zVO0NnT0_-wOnNSNdaKhcrsyVt/view?usp=share_link)
+
 This project uses 2 parts -
 
 - Frontend App to view the number of drones and components available
